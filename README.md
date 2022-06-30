@@ -1,5 +1,5 @@
 # i3-config
-
+This is a forked project of adi1090x/polybar-themes
 Required softwares:
 <ul>
   <li> i3
