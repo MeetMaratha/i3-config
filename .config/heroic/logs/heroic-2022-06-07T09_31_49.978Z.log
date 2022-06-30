@@ -1,0 +1,33 @@
+(15:01:50) DEBUG:   [Legendary]:       Running Legendary command: /usr/lib64/heroic-games-launcher-bin/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(15:01:51) INFO:    [Legendary]:       Legendary location: /usr/lib64/heroic-games-launcher-bin/resources/app.asar.unpacked/build/bin/linux/legendary
+(15:01:51) INFO:    [Gog]:             GOGDL location: /usr/lib64/heroic-games-launcher-bin/resources/app.asar.unpacked/build/bin/linux/gogdl
+(15:01:51) INFO:    [Backend]:         
+
+Heroic Version: 2.3.7 Brook
+Legendary Version:  0.20.26 Dark Energy
+OS: Fedora Linux KERNEL: 5.17.11-300.fc36.x86_64 ARCH: x64
+CPU: AMD A6-9220 RADEON R4, 5 COMPUTE CORES 2C+3G @2.9 GOVERNOR: schedutil
+RAM: Total: 7.16 GiB Available: 4.1 GiB
+GRAPHICS: GPU0: Stoney [Radeon R2/R3/R4/R5 Graphics] VRAM: 256MB DRIVER:  
+PROTOCOL: x11
+
+(15:01:52) WARNING: [Backend]:         Failed to register protocol with OS.
+(15:01:56) INFO:    [Frontend]:        Refreshing Library
+(15:01:56) INFO:    [Legendary]:       Refreshing library...
+(15:01:56) INFO:    [Legendary]:       Refreshing Epic Games...
+(15:01:57) INFO:    [Backend]:         Downloaded Winetricks
+(15:01:57) DEBUG:   [Legendary]:       Running Legendary command: /usr/lib64/heroic-games-launcher-bin/resources/app.asar.unpacked/build/bin/linux/legendary list
+(15:01:59) DEBUG:   [Legendary]:       Using cached install info
+(15:02:00) INFO:    [Legendary]:       Updating game list
+(15:02:00) INFO:    [Legendary]:       Game List Updated
+(15:02:01) INFO:    [Legendary]:       Checking for game updates: /usr/lib64/heroic-games-launcher-bin/resources/app.asar.unpacked/build/bin/linux/legendary list-installed --check-updates --tsv
+(15:02:01) DEBUG:   [Legendary]:       Running Legendary command: /usr/lib64/heroic-games-launcher-bin/resources/app.asar.unpacked/build/bin/linux/legendary list-installed --check-updates --tsv
+(15:02:02) DEBUG:   [Legendary]:       Using cached install info
+(15:02:02) INFO:    [Backend]:         Launching Surviving Mars (Ovenbird)
+(15:02:03) DEBUG:   [Legendary]:       Running Wine command: "/usr/bin/wine" wineboot --init
+(15:02:03) INFO:    [Legendary]:       Found 0 game(s) to update
+(15:02:03) INFO:    [Gog]:             Found 0 game(s) to update
+(15:02:03) DEBUG:   [Legendary]:       Using cached install info
+(15:02:09) DEBUG:   [Legendary]:       Ran Wine command: "/usr/bin/wine" wineboot --init
+(15:02:09) INFO:    [Legendary]:       Launching Surviving Mars: WINEPREFIX=/media/Games/Heroic/Prefixes/SurvivingMars /usr/lib64/heroic-games-launcher-bin/resources/app.asar.unpacked/build/bin/linux/legendary launch Ovenbird --wine /usr/bin/wine --wine-prefix /media/Games/Heroic/Prefixes/SurvivingMars
+(15:02:09) DEBUG:   [Legendary]:       Running Legendary command: WINEPREFIX=/media/Games/Heroic/Prefixes/SurvivingMars /usr/lib64/heroic-games-launcher-bin/resources/app.asar.unpacked/build/bin/linux/legendary launch Ovenbird --wine /usr/bin/wine --wine-prefix /media/Games/Heroic/Prefixes/SurvivingMars

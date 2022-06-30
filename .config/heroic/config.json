@@ -1,0 +1,36 @@
+{
+  "defaultSettings": {
+    "checkUpdatesInterval": 10,
+    "enableUpdates": false,
+    "addDesktopShortcuts": false,
+    "addStartMenuShortcuts": false,
+    "autoInstallDxvk": false,
+    "autoInstallVkd3d": false,
+    "checkForUpdatesOnStartup": true,
+    "customWinePaths": [],
+    "defaultInstallPath": "/home/meet/Games/Heroic",
+    "defaultWinePrefix": "/home/meet/Games/Heroic/Prefixes",
+    "language": "en",
+    "maxWorkers": 0,
+    "minimizeOnLaunch": false,
+    "nvidiaPrime": false,
+    "otherOptions": "",
+    "showUnrealMarket": false,
+    "showFps": false,
+    "useGameMode": false,
+    "userInfo": {
+      "epicId": "",
+      "name": "meet"
+    },
+    "wineCrossoverBottle": "Heroic",
+    "winePrefix": "/home/meet/.wine",
+    "wineVersion": {
+      "bin": "/usr/bin/wine",
+      "name": "Wine Default - wine-7.9 (Staging)",
+      "type": "wine",
+      "wineserver": "/usr/bin/wineserver",
+      "wineboot": "/usr/bin/wineboot"
+    }
+  },
+  "version": "v0"
+}

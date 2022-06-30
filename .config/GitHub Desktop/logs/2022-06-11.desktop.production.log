@@ -1,0 +1,16 @@
+2022-06-11T15:24:19.029Z - info: [ui] [AppStore] loading 2 repositories from store
+2022-06-11T15:24:19.037Z - info: [ui] [AppStore] found account: MeetMaratha (Meet Maratha)
+2022-06-11T15:24:20.312Z - info: [ui] [BranchPruner] No branches to prune.
+2022-06-11T15:24:20.542Z - info: [ui] Subscribed 'MeetMaratha' to Alive channel
+2022-06-11T15:24:20.635Z - info: [ui] launching: 3.0.0-linux1 (Linux 5.17.11-300.fc36.x86_64)
+2022-06-11T15:24:20.644Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2022-06-11T15:24:21.911Z - info: [ui] Stats reported.
+2022-06-11T15:24:30.974Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-06-11T15:24:34.475Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 3.449s)
+2022-06-11T15:24:36.253Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-06-11T15:24:38.450Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 -c rebase.backend=merge pull --ff --progress origin (took 2.087s)
+2022-06-11T15:24:47.529Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Solid-Waste-Collection' took 0.410s
+2022-06-11T15:24:48.969Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-06-11T15:24:50.376Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin Version-2:Version-2 --progress (took 1.330s)
+2022-06-11T15:31:08.026Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.515s)
+2022-06-11T15:31:08.436Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 2.0s of which 0.0s paused, total 2.0s

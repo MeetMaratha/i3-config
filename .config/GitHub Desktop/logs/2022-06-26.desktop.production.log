@@ -1,0 +1,8 @@
+2022-06-26T14:37:53.411Z - info: [ui] Subscribed 'MeetMaratha' to Alive channel
+2022-06-26T14:37:56.047Z - info: [ui] [AppStore] loading 2 repositories from store
+2022-06-26T14:37:56.050Z - info: [ui] [AppStore] found account: MeetMaratha (Meet Maratha)
+2022-06-26T14:37:58.453Z - info: [ui] launching: 3.0.0-linux1 (Linux 5.18.5-200.fc36.x86_64)
+2022-06-26T14:37:58.463Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2022-06-26T14:37:59.083Z - info: [ui] [BranchPruner] No branches to prune.
+2022-06-26T14:37:59.643Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 2.504s)
+2022-06-26T14:38:00.781Z - info: [ui] Stats reported.

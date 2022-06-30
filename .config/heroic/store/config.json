@@ -1,0 +1,26 @@
+{
+	"general-logs": {
+		"currentLogFile": "/home/meet/.config/heroic/logs/heroic-2022-06-07T09_31_49.978Z.log",
+		"lastLogFile": "/home/meet/.config/heroic/logs/heroic-2022-06-07T09_01_27.636Z.log"
+	},
+	"userHome": "/home/meet",
+	"userInfo": {
+		"account_id": "a55097ff15db440a89519404b3a0d986",
+		"displayName": "Conlonk1419",
+		"user": "meet"
+	},
+	"games": {
+		"recent": [
+			{
+				"appName": "Ovenbird",
+				"title": "Surviving Mars"
+			}
+		]
+	},
+	"window-props": {
+		"x": 4,
+		"y": 90,
+		"width": 876,
+		"height": 600
+	}
+}

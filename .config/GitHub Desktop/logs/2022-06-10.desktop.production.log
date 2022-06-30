@@ -1,0 +1,17 @@
+2022-06-10T15:02:26.505Z - info: [ui] [AppStore] loading 2 repositories from store
+2022-06-10T15:02:26.514Z - info: [ui] [AppStore] found account: MeetMaratha (Meet Maratha)
+2022-06-10T15:02:27.034Z - info: [ui] launching: 3.0.0-linux1 (Linux 5.17.11-300.fc36.x86_64)
+2022-06-10T15:02:27.036Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2022-06-10T15:02:28.160Z - info: [ui] Subscribed 'MeetMaratha' to Alive channel
+2022-06-10T15:02:28.375Z - info: [ui] Executing installGlobalLFSFilter: git lfs install --skip-repo (took 1.345s)
+2022-06-10T15:02:28.652Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 1.541s)
+2022-06-10T15:02:28.654Z - info: [ui] Executing getStatus: git --no-optional-locks status --untracked-files=all --branch --porcelain=2 -z (took 2.049s)
+2022-06-10T15:02:28.960Z - info: [ui] Stats reported.
+2022-06-10T15:02:33.868Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.1s of which 0.0s paused, total 0.1s
+2022-06-10T15:02:34.467Z - info: [ui] Executing getChangedFilesNumStats: git log 9890ac6dcbcbebfb2551ad6ae017e4aff14bfec7 -C -M -m -1 --no-show-signature --first-parent --format=format: -z --numstat -- (took 1.327s)
+2022-06-10T15:02:37.728Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-06-10T15:02:38.940Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.161s)
+2022-06-10T15:02:51.848Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Solid-Waste-Collection' took 0.438s
+2022-06-10T15:02:53.381Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-06-10T15:02:54.804Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin Version-2:Version-2 --progress (took 1.372s)
+2022-06-10T15:03:01.549Z - info: [main] opening in browser: https://github.com/MeetMaratha/Solid-Waste-Collection/pull/new/Version-2

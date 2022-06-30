@@ -1,0 +1,29 @@
+2022-06-25T10:22:23.287Z - info: [ui] [AppStore] loading 2 repositories from store
+2022-06-25T10:22:23.320Z - info: [ui] [AppStore] found account: MeetMaratha (Meet Maratha)
+2022-06-25T10:22:24.384Z - info: [ui] Subscribed 'MeetMaratha' to Alive channel
+2022-06-25T10:22:24.397Z - info: [ui] launching: 3.0.0-linux1 (Linux 5.18.5-200.fc36.x86_64)
+2022-06-25T10:22:24.399Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2022-06-25T10:22:25.601Z - info: [ui] Stats reported.
+2022-06-25T10:22:26.289Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-06-25T10:22:28.186Z - info: [ui] Executing fetch: git -c credential.helper= -c protocol.version=2 fetch --progress --prune origin (took 1.832s)
+2022-06-25T10:22:30.182Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-06-25T10:22:32.288Z - info: [ui] Executing pull: git -c credential.helper= -c protocol.version=2 -c rebase.backend=merge pull --ff --progress origin (took 2.006s)
+2022-06-25T10:43:48.415Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-06-25T10:43:51.226Z - error: [ui] Could not get Alive web socket URL for 'MeetMaratha'
+TypeError: Failed to fetch
+    at Wt (/home/meet/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at Pn.request (/home/meet/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at Pn.getAliveWebSocketURL (/home/meet/webpack:/[name]/app/src/lib/api.ts:724:30)
+    at Object.createSessionForAccount (/home/meet/webpack:/[name]/app/src/lib/stores/alive-store.ts:161:32)
+    at Object.subscribeToAccount (/home/meet/webpack:/[name]/app/src/lib/stores/alive-store.ts:218:40)
+    at Object._subscribeToAccounts (/home/meet/webpack:/[name]/app/src/lib/stores/alive-store.ts:138:20)
+    at subscribeToAccounts (/home/meet/webpack:/[name]/app/src/lib/stores/alive-store.ts:117:44)
+2022-06-25T10:43:52.165Z - info: [ui] Subscribed 'MeetMaratha' to Alive channel
+2022-06-25T10:43:52.190Z - info: [ui] [AppStore] loading 2 repositories from store
+2022-06-25T10:43:52.192Z - info: [ui] [AppStore] found account: MeetMaratha (Meet Maratha)
+2022-06-25T10:43:52.314Z - info: [ui] [BranchPruner] Last prune took place 21 minutes ago - skipping
+2022-06-25T10:43:54.282Z - info: [ui] launching: 3.0.0-linux1 (Linux 5.18.5-200.fc36.x86_64)
+2022-06-25T10:43:54.285Z - info: [ui] execPath: '/usr/lib/github-desktop/github-desktop'
+2022-06-25T10:44:14.230Z - info: [ui] [Timing] Action 'create commit' for 'MeetMaratha/Solid-Waste-Collection' took 1.668s
+2022-06-25T10:44:18.396Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Solid-Waste-Collection - MeetMaratha (has token)
+2022-06-25T10:44:24.484Z - info: [ui] Executing push: git -c credential.helper= -c protocol.version=2 push origin Version-2:Version-2 --progress (took 6.018s)
