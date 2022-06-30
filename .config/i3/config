@@ -210,6 +210,7 @@ for_window [class = "Nm-connection-editor"] floating enable
 for_window [class = "Pavucontrol"] floating enable
 for_window [class = "Audacious"] floating enable
 for_window [class = "Transmission-gtk"] floating enable
+for_window [class = "Lxappearance"] floating enable
 
 # Specific Window to specific workspace
 assign [class = "firefox"] $ws2
