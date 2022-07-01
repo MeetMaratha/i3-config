@@ -1,7 +1,0 @@
-# GIMP gimp-text-tool options
-
-(palette "Color History")
-(font "Roboto Medium")
-(font-size 18)
-
-# end of gimp-text-tool options

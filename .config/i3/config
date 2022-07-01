@@ -211,18 +211,22 @@ for_window [class = "Pavucontrol"] floating enable
 for_window [class = "Audacious"] floating enable
 for_window [class = "Transmission-gtk"] floating enable
 for_window [class = "Lxappearance"] floating enable
+for_window [class = "TelegramDesktop"] floating enable
 
 # Specific Window to specific workspace
+assign [class = "terminal"] $ws1
 assign [class = "firefox"] $ws2
 assign [class = "Thunar"] $ws3
-assign [class = "terminal"] $ws1
 assign [class = "Lutris"] $ws4
 assign [class = "Steam"] $ws4
+assign [class = "vlc"] $ws5
+
 for_window [class = "firefox"] focus
 for_window [class = "Thunar"] focus
 for_window [class = "terminal"] focus
 for_window [class = "Lutris"] focus
 for_window [class = "Steam"] focus
+for_window [class = "vlc"] focus
 
 
 # Title Bar settings

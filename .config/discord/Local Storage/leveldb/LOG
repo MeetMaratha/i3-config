@@ -1,6 +1,0 @@
-2022/06/12-17:19:18.167 5b4b Reusing MANIFEST /home/meet/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2022/06/12-17:19:18.167 5b4b Recovering log #4
-2022/06/12-17:19:18.167 5b4b Reusing old log /home/meet/.config/discord/Local Storage/leveldb/000004.log 
-2022/06/12-17:20:20.561 5b5d Level-0 table #8: started
-2022/06/12-17:20:20.739 5b5d Level-0 table #8: 464984 bytes OK
-2022/06/12-17:20:20.816 5b5d Delete type=0 #4

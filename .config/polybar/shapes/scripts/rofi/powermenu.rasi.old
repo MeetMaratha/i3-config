@@ -8,7 +8,7 @@
  */
 
 configuration {
-	font: "Fantasantasque Sans Mono 50";
+	font: "Robot Medium 10";
 	show-icons: true;
 	icon-theme: "Kora Light Panel";
 	display-drun: "";
@@ -22,22 +22,17 @@ configuration {
 @import "colors.rasi"
 
 window {
-	children: [inputbar, horibox];
 	transparency: "real";
 	background-color: @bg;
 	text-color: @fg;
 	border:	5px;
 	border-color: #1F1F1F;
 	border-radius: 10px;
-	width: 450px;
+	width: 350px;
+	height: 350px;
 	location: center;
 	x-offset: 0;
 	y-offset: 0;
-}
-
-horibox {
-	children: [listview];
-	background-color: @bg;
 }
 
 prompt {
@@ -52,9 +47,9 @@ textbox-prompt-colon {
 	padding: 10px 10px 10px 10px;
 	font: "Roboto Medium 10";
 	background-color: @bg1;
-	text-color: @fg;
+	text-color: #FFFFFF;
 	expand: false;
-	str: "";
+	str: "";
 }
 
 entry {
@@ -83,10 +78,10 @@ inputbar {
 listview {
 	background-color: @bg;
 	padding: 10px 10px 10px 10px;
-	lines: 2;
 	columns: 3;
+	lines: 2;
 	spacing: 5px;
-	cycle: false;
+	cycle: true;
 	dynamic: false;
 	layout: vertical;
 }
@@ -102,28 +97,32 @@ mainbox {
 }
 
 element {
-	background-color: @bg;
+	background-color: transparent;
 	text-color: @fg;
-	orientation: vertical;
+	orientation: horizontal;
 	border-radius: 0px;
-	padding: 0px 0px 0px 35px;
+	padding: 6px 6px 6px -20px;
 }
 
 element-icon {
+	size: 50px;
 	border: 0px;
 	background-color: transparent;
+	height: 150px;
+	
 }
 
 element-text {
-	background-color: transparent;
-	expand: false;
-	text-color: @fg;
+    expand:                         true;
+    horizontal-align:               0;
+    vertical-align:                 55;
+    margin:                         0px 2.5px 0px 2.5px;
 }
 
 element selected {
-	background-color: #FB8C00B3;
-	text-color: @fg;
-	border:	0px 0px 0px 0px;
-	border-radius: 10px;
-	border-color: @bg3;
+    background-color:               @bg3;
+    text-color:                     @bg;
+	border:							0px 0px 0px 0px;
+    border-radius:                  12px;
+    border-color:                  	@bg1;
 }

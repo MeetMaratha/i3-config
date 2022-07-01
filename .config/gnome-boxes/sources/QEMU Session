@@ -1,8 +1,0 @@
-[source]
-name=QEMU Session
-type=libvirt
-uri=qemu+unix:///session
-save-on-quit=true
-
-[display db1d4bfc-b001-484b-91f9-f51cc019e979]
-access-total-time=296
